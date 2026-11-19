@@ -1,0 +1,157 @@
+[1792301230.887][INFO]: Starting ChromeDriver 155.0.8059.84 (5869fe313571d75152b77813cf0a4ee26a4e6df0-refs/branch-heads/8059@{#1303}) on port 42258
+[1792301230.887][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1792301230.896][INFO]: ChromeDriver was started successfully on port 42258
+[1792301231.190][INFO]: [6517e7dd1a14e59f4211eca7b730e413] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [  ],
+            "extensions": [  ]
+         },
+         "goog:loggingPrefs": {
+            "browser": "ALL",
+            "driver": "ALL"
+         }
+      } ]
+   }
+}
+[1792301231.190][INFO]: Browser search. Trying... C:\Users\pc\.cache\selenium\chromedriver\win64\155.0.8059.84\chrome.exe
+[1792301231.190][INFO]: Browser search. Trying... C:\Users\pc\.cache\selenium\chromedriver\win64\155.0.8059.84\chrome.exe
+[1792301231.190][INFO]: Browser search. Trying... C:\Users\pc\.cache\selenium\chromedriver\win64\155.0.8059.84\chromium.exe
+[1792301231.195][INFO]: Browser search. Trying... C:\Users\pc\AppData\Local\Google\Chrome\Application\chrome.exe
+[1792301231.195][INFO]: Browser search. Trying... C:\Program Files\Google\Chrome\Application\chrome.exe
+[1792301231.196][INFO]: Browser search. Found at  C:\Program Files\Google\Chrome\Application\chrome.exe
+[1792301231.197][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1792301231.199][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1792301231.202][INFO]: ChromeDriver supports communication with Chrome via pipes. This is more reliable and more secure.
+[1792301231.202][INFO]: Use the --remote-debugging-pipe Chrome switch instead of the default --remote-debugging-port to enable this communication mode.
+[1792301231.205][INFO]: Launching chrome: "C:\Program Files\Google\Chrome\Application\chrome.exe" --allow-pre-commit-input --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-client-side-phishing-detection --disable-default-apps --disable-features=IgnoreDuplicateNavs,Prewarm --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-automation --enable-logging --log-level=0 --no-first-run --no-service-autorun --password-store=basic --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\pc\AppData\Local\Temp\scoped_dir11948_1714384690" data:,
+[1792301233.976][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1792301234.775][INFO]: [6517e7dd1a14e59f4211eca7b730e413] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": false,
+      "browserName": "chrome",
+      "browserVersion": "155.0.8059.80",
+      "chrome": {
+         "chromedriverVersion": "155.0.8059.84 (5869fe313571d75152b77813cf0a4ee26a4e6df0-refs/branch-heads/8059@{#1303})",
+         "userDataDir": "C:\\Users\\pc\\AppData\\Local\\Temp\\scoped_dir11948_1714384690"
+      },
+      "fedcm:accounts": true,
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:53566"
+      },
+      "goog:processID": 12372,
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "windows",
+      "proxy": {
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:extension:cmtgKey": true,
+      "webauthn:extension:credBlob": true,
+      "webauthn:extension:largeBlob": true,
+      "webauthn:extension:minPinLength": true,
+      "~~~": "..."
+   },
+   "sessionId": "6517e7dd1a14e59f4211eca7b730e413"
+}
+[1792301235.326][INFO]: [6517e7dd1a14e59f4211eca7b730e413] COMMAND MaximizeWindow {
+}
+[1792301235.326][INFO]: Waiting for pending navigations...
+[1792301235.359][INFO]: Done waiting for pending navigations. Status: ok
+[1792301235.443][INFO]: Waiting for pending navigations...
+[1792301235.453][INFO]: Done waiting for pending navigations. Status: ok
+[1792301235.453][INFO]: [6517e7dd1a14e59f4211eca7b730e413] RESPONSE MaximizeWindow {
+   "height": 832,
+   "width": 1552,
+   "x": -7,
+   "y": -7
+}
+[1792301235.482][INFO]: [6517e7dd1a14e59f4211eca7b730e413] COMMAND SetTimeouts {
+   "implicit": 30000
+}
+[1792301235.482][INFO]: [6517e7dd1a14e59f4211eca7b730e413] RESPONSE SetTimeouts
+[1792301235.495][INFO]: [6517e7dd1a14e59f4211eca7b730e413] COMMAND Navigate {
+   "url": "https://stackoverflow.com/questions"
+}
+[1792301235.495][INFO]: Waiting for pending navigations...
+[1792301235.503][INFO]: Done waiting for pending navigations. Status: ok
+[1792301235.782][INFO]: Waiting for pending navigations...
+[1792301238.698][INFO]: Done waiting for pending navigations. Status: ok
+[1792301238.698][INFO]: [6517e7dd1a14e59f4211eca7b730e413] RESPONSE Navigate
+[1792301238.714][INFO]: [6517e7dd1a14e59f4211eca7b730e413] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//button[normalize-space()='More']"
+}
+[1792301238.714][INFO]: Waiting for pending navigations...
+[1792301238.716][INFO]: Done waiting for pending navigations. Status: ok
+[1792301241.510][INFO]: Waiting for pending navigations...
